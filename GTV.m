@@ -12,11 +12,8 @@ function S = GTV(I, lambda, sigma12,sigma2,N,flog)
     if (~exist('flog','var'))
         flog = 0;
     end
-    if (~exist('epsilon','var'))
-        epsilon = 0.001;
-    end  
-  
-
+    
+    epsilon = 0.001; 
     I = im2double(I);
     S = I;
     for i=1:N
