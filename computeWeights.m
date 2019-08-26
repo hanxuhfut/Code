@@ -3,15 +3,15 @@ function [wx, wy] = computeWeights(s,sigma,sigma1,t1)
       t1 = 0;
     end
     
-    eps = 0.0001;
+    epsilon = 0.0001;
     
     dxo = diff(s,1,2);
     dxo = padarray(dxo, [0 1], 'post');
     dyo = diff(s,1,1);
     dyo = padarray(dyo, [1 0], 'post');
     
-    wxo = max(max(abs(dxo),[],3),eps).^(-1);
-    wyo = max(max(abs(dyo),[],3),eps).^(-1);
+    wxo = max(max(abs(dxo),[],3),epsilon).^(-1);
+    wyo = max(max(abs(dyo),[],3),epsilon).^(-1);
     if (t1==1)
         wx = wxo;
         wy = wyo; 
@@ -23,8 +23,8 @@ function [wx, wy] = computeWeights(s,sigma,sigma1,t1)
         dy = padarray(dy, [1 0], 'post');
         
 
-        wx = max(max((exp((dx.*dx)./(2*sigma))),[],3),eps).^(-1);
-        wy = max(max((exp((dy.*dy)./(2*sigma))),[],3),eps).^(-1);
+        wx = max(max((exp((dx.*dx)./(2*sigma))),[],3),epsilon).^(-1);
+        wy = max(max((exp((dy.*dy)./(2*sigma))),[],3),epsilon).^(-1);
 
         wx = wxo.*(wx);
         wy = wyo.*(wy);
