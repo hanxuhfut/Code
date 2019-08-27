@@ -38,4 +38,4 @@ Image 1-7 were downloaded from the Internet, and 8-10 were taken in the authors'
 ![image1](/Demo/fig10.png)
 
 ## 3 Acknowledgments
-- **Part of our code architecture is inspired by "A Joint Intrinsic-Extrinsic Prior Model for Retinex "[[code](https://github.com/caibolun/JieP),[paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Cai_A_Joint_Intrinsic-Extrinsic_ICCV_2017_paper.pdf)]**
+- **Part of our code architecture is inspired by "A Joint Intrinsic-Extrinsic Prior Model for Retinex "[[code](https://github.com/caibolun/JieP), [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Cai_A_Joint_Intrinsic-Extrinsic_ICCV_2017_paper.pdf)]**
