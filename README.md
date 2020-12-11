@@ -44,7 +44,7 @@ Please consider to cite this paper if you find this code helpful for your resear
 
 ```
 @ARTICLE{8970535,
-        author={S. {Hao} and X. {Han} and Y. {Guo} and X. {Xu} and M. {Wang}},
+        author={Hao, Shijie and Han, Xu and Guo, Yanrong and Xu, Xin and Wang, Meng},
         journal={IEEE Transactions on Multimedia}, 
         title={Low-Light Image Enhancement With Semi-Decoupled Decomposition}, 
         year={2020},
