@@ -39,8 +39,11 @@ Image 1-7 were downloaded from the Internet, and 8-10 were taken in the authors'
 
 ## 3 Acknowledgments
 - **Part of our code architecture is inspired by "A Joint Intrinsic-Extrinsic Prior Model for Retinex "[[code](https://github.com/caibolun/JieP), [paper](http://openaccess.thecvf.com/content_ICCV_2017/papers/Cai_A_Joint_Intrinsic-Extrinsic_ICCV_2017_paper.pdf)].**
+
 Please consider to cite this paper if you find this code helpful for your research：
-      @ARTICLE{8970535,
+
+```
+@ARTICLE{8970535,
         author={S. {Hao} and X. {Han} and Y. {Guo} and X. {Xu} and M. {Wang}},
         journal={IEEE Transactions on Multimedia}, 
         title={Low-Light Image Enhancement With Semi-Decoupled Decomposition}, 
@@ -48,4 +51,6 @@ Please consider to cite this paper if you find this code helpful for your resear
         volume={22},
         number={12},
         pages={3025-3038},
-        doi={10.1109/TMM.2020.2969790}}
+        doi={10.1109/TMM.2020.2969790}
+       }
+```
